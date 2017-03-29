@@ -1,0 +1,11 @@
+<!-- app.component.html -->
+<StackLayout>
+    <GridLayout rows="auto, auto, *" columns="auto, *">
+        <DropDown #dd backroundColor="red" [items]="items" [selectedIndex]="selectedIndex" 
+                  (selectedIndexChanged)="onchange($event)" (opened)="onopen()" hint="I am Groot!"
+                  row="0" colSpan="2">
+        </DropDown>
+        <Label text="Selected Index:" row="1" col="0" fontSize="18" verticalAlignment="bottom"></Label>
+        <TextField [text]="selected" row="1" col="1" ></TextField>
+    </GridLayout>
+</StackLayout>

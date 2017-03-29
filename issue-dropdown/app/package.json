@@ -1,0 +1,22 @@
+{
+	"name": "ns-dropdown-sample",
+	"main": "main.js",
+	"version": "1.0.0",
+	"author": "Olivier Dubuc",
+	"description": "",
+	"license": "MIT",
+	"keywords": [
+	],
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"homepage": "",
+	"android": {
+		"v8Flags": "--expose_gc"
+	},
+	"devDependencies": {
+		"nativescript-dev-typescript": "0.3.7",
+		"typescript": "2.2.1"
+	}
+}

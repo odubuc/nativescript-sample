@@ -1,0 +1,35 @@
+{
+  "name": "ns-dropdown-sample",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "nativescript": {
+    "id": "ns.dropdown.sample",
+    "tns-android": {
+      "version": "2.5.0"
+    },
+    "tns-ios": {
+      "version": "2.5.0"
+    }
+  },
+  "dependencies": {
+    "nativescript-angular": "1.5.0",
+    "nativescript-drop-down": "1.5.3",
+    "tns-core-modules": "2.5.2",
+    "zone.js": "0.8.5"
+  },
+  "devDependencies": {
+    "babel-traverse": "6.23.1",
+    "babel-types": "6.23.0",
+    "babylon": "6.16.1",
+    "lazy": "1.0.11",
+    "nativescript-dev-typescript": "0.3.7",
+    "typescript": "2.2.1",
+    "tslint": "4.5.1",
+    "codelyzer": "3.0.0-beta.0"
+  }
+}
