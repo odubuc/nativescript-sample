@@ -17,7 +17,7 @@
     }
   },
   "dependencies": {
-    "nativescript-angular": "1.5.0",
+    "nativescript-angular": "1.4.1",
     "nativescript-drop-down": "1.5.3",
     "tns-core-modules": "2.5.2",
     "zone.js": "0.8.5"
